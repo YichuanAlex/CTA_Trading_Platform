@@ -1084,7 +1084,7 @@ Ensure the strategy file is in the correct location and follows the naming conve
 
 **中文:**
 ```
-姜子西。(2026). CTA 交易平台：期货和期权交易的综合系统 [GitHub 仓库]. 
+江子曦。(2026). CTA 交易平台：期货和期权交易的综合系统 [GitHub 仓库]. 
 https://github.com/YichuanAlex/CTA_Trading_Platform
 ```
 
@@ -1108,15 +1108,15 @@ For questions, suggestions, or collaborations, please contact:
 - **Author**: Zixi Jiang (YichuanAlex)
 - **Email**: jiangzixi1527435659@gmail.com
 - **GitHub**: https://github.com/YichuanAlex
-- **Location**: Dalian, Liaoning, China
+- **Location**: Shanghai, Shanghai, China
 
 **中文:**
 如有问题、建议或合作意向，请联系：
 
-- **作者**: 姜子西 (YichuanAlex)
+- **作者**: 江子曦 (YichuanAlex)
 - **邮箱**: jiangzixi1527435659@gmail.com
 - **GitHub**: https://github.com/YichuanAlex
-- **地点**: 中国大连
+- **地点**: 中国上海
 
 ---
 

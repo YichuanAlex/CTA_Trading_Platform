@@ -1,67 +1,26 @@
-# Python
+# 最小化的 .gitignore - 确保所有 mos 项目文件都能上传
+
+# 只排除编译生成的文件和真正的临时文件
+# Python 编译文件
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-env/
-venv/
-ENV/
-build/
-*.egg-info/
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# 虚拟环境（如果有）
+# env/
+# venv/
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+# IDE 配置（可选，如果需要共享配置请注释掉）
+# .vscode/
+# .idea/
 
-# OS
+# 操作系统文件
 .DS_Store
 ._*
 Thumbs.db
 
-# Logs
-*.log
-
-# Environment variables
-.env
-*.env
-
-# Credentials
-*.json
-!package-lock.json
-
-# Office backup files
-~$*.docx
-~$*.xlsx
-~$*.pptx
+# 真正的临时文件
 *.tmp
 *.bak
-
-# Database
-*.db
-*.sqlite
-*.sqlite3
-db/
-
-# Result files
-result/
-data/
-
-# Large data files
-*.csv
-*.parquet
-*.feather
-
-# Model checkpoints
-*.pkl
-*.pth
-*.h5
-
-# Log files
-log/

@@ -1,0 +1,28 @@
+{
+  "server_addr": "tcp://10.168.1.168:56010",
+  "user_name": "test",
+  "user_passwd": "test123",
+  "strategy_name": "test_sample_strategy.py",
+
+  "data_type": "1m",
+  "is_live_mode": false,
+  "is_main_symbol_only": false,
+  "is_option": false,
+  "night_trade": false,
+
+  "init_money": 1000000,
+  "margin_rate": 0.08,
+  "riskless_rate": 0.02,
+
+  "buy_fee_type": "pct",
+  "buy_fee_value": 0.00007,
+  "sell_fee_type": "pct",
+  "sell_fee_value": 0.00007,
+
+  "slippage_type": "pct",
+  "slippage_value": 0.0001,
+
+  "deal_type": "close",
+  "max_deal_pct": 0.2,
+  "is_check_market_volume": false
+}

@@ -1,0 +1,55 @@
+{
+  "class_name": "test_sample_strategy",
+  "subscribe_symbol": [
+    "CU.SHFE", "AL.SHFE", "ZN.SHFE", "PB.SHFE", "NI.SHFE",
+    "SN.SHFE", "SS.SHFE", "SP.SHFE", "AU.SHFE", "AG.SHFE"
+  ],
+  "start_date": "2024-08-31",
+  "end_date": "2025-08-31",
+  "train_period": "2024-08-31/2025-02-28",
+  "test_period": "2024-03-01/2025-08-31",
+  "acct_balance_ratio": 1,
+
+  "params": {
+    "rebalance_interval": 5,
+    "factor_window": 60,
+    "long_count": 3,
+    "short_count": 3,
+    "open_allowed_after": "09:10",
+    "cancel_cutoff_time": "14:57",
+    "max_deal_pct": 0.2,
+    "momentum_weight": 0.3,
+    "term_structure_weight": 0.5,
+    "oi_weight": 0.2,
+    "enable_trend_filter": false,
+    "trend_filter_window": 60,
+    "signal_threshold": 0.0,
+    "costs": {
+      "commission_per_lot": 5.0,
+      "slippage_per_lot": 2.0,
+      "impact_cost_pct": 0.0001
+    },
+    "stop_loss_pct": 0.05
+  },
+  "margin_rates": {
+    "AU.SHFE": 0.10,
+    "AG.SHFE": 0.12,
+    "CU.SHFE": 0.15,
+    "RB.SHFE": 0.20
+  },
+
+  "factors": {
+    "momentum": {
+      "kind": "return",
+      "window": 60
+    },
+    "term_structure": {
+      "kind": "near_minus_far_ratio",
+      "min_contracts_per_root": 2
+    },
+    "open_interest_change": {
+      "kind": "delta_pct",
+      "window": 60
+    }
+  }
+}

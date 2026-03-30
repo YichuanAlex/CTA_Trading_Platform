@@ -1,0 +1,54 @@
+{
+  "server_addr": "tcp://10.168.1.168:56010",
+  "user_name": "test",
+  "user_passwd": "test123",
+
+  "strategy_name": "test_sample_strategy.py",
+
+  "data_type": "1m",
+
+  "subscribe symbol": [
+    "RB","CU","AU"
+  ],
+
+  "is_live_mode": false,
+  "is_main_symbol_only": false,
+  "is_option": false,
+  "night_trade": true,
+
+  "init_money": 1000000,
+  "exchanges": {
+    "J":"DCE", "I": "DCE", "LH": "DCE", "EG": "DCE", "FB": "DCE", "JD": "DCE",  "BZ": "DCE", "Y": "DCE", "B": "DCE",  "EB": "DCE", "P": "DCE", "A": "DCE", "C": "DCE", "JM": "DCE", "V": "DCE", "L": "DCE", "M": "DCE", "CS": "DCE", "PP": "DCE", "LG": "DCE", "BB": "DCE", "PG": "DCE",
+    "WH":"CZCE", "MA": "CZCE", "TA": "CZCE", "SA": "CZCE", "RR": "CZCE",  "OI": "CZCE", "SH": "CZCE", "WW": "CZCE", "PF": "CZCE","PR": "CZCE", "CF": "CZCE", "PX": "CZCE", "ZC": "CZCE","UR": "CZCE", "LR": "CZCE", "RI": "CZCE", "SF": "CZCE", "CJ": "CZCE", "SR": "CZCE", "RS": "CZCE",  "JR": "CZCE", "SM": "CZCE",  "CY": "CZCE", "FG": "CZCE", "RM": "CZCE", "PLL": "CZCE", "PK": "CZCE", "AP": "CZCE", "PM": "CZCE", 
+    "PB": "SHFE", "BU": "SHFE", "RB": "SHFE", "RU": "SHFE",  "CU": "SHFE", "HC": "SHFE","FU": "SHFE", "WR": "SHFE", "SN": "SHFE", "ZN": "SHFE", "AG": "SHFE", "BR": "SHFE", "AO": "SHFE", "AL": "SHFE", "SS": "SHFE", "NI": "SHFE", "AU": "SHFE", "SP": "SHFE", "AD": "SHFE",
+    "IF": "CFFEX","T": "CFFEX", "IC": "CFFEX",  "TS": "CFFEX", "IH": "CFFEX", "TF": "CFFEX",  "IM": "CFFEX", "TL": "CFFEX",
+    "LU": "INE", "EC": "INE", "NR": "INE", "SC": "INE", "BC": "INE", 
+    "LC": "GFEX", "SI": "GFEX", "PS": "GFEX"
+  },
+  "riskless_rate": 0.02,
+
+  "buy_fee_type": "pct",
+  "buy_fee_value": 0.00007,
+  "sell_fee_type": "pct",
+  "sell_fee_value": 0.00007,
+
+  "slippage_type": "pct",
+  "slippage_value": 0.0001,
+  "margin_rate": 0.2,
+  "deal_type": "close",
+  "max_deal_pct": 1.0,
+  "is_check_market_volume": false,
+
+  "strategy_config_dir": "strategy/config/test",
+  "backtest_period": "2024-08-20~2025-08-20",
+  "data_path": "./data/1m",
+  "download_mode": "incremental",
+  "skip_missing_data": true
+  ,
+  "cache_expire_days": 0,
+  "log_level": "INFO",
+  "log_level_match_engine": "WARNING",
+  "log_level_account_manager": "WARNING",
+  "log_sample_n": 100,
+  "offline_sample_days": 0
+}
