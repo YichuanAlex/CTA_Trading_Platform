@@ -1,0 +1,22 @@
+策略编写注意事项：
+
+一、策略存放路径：
+在当前目录的 strategy/source_code/[user_name] 文件夹下
+其中 [user_name] 用具体的用户名替换，比如 test
+
+二、策略命名规则：
+用户名_策略名.py
+例如：zhangsan_sample_strategy.py
+
+三、策略配置文件：
+在当前目录的 strategy/config/[user_name] 文件夹下
+其中 [user_name] 用具体的用户名替换，比如 test
+每个策略都有一个对应的配置文件，文件名与策略名一致，格式是 JSON
+
+四、主配置文件：
+在主目录下，命名格式为：用户名_config.json
+配置参考 test_config.json
+
+五、运行命令：
+python cta_platform.py 主配置文件名
+例如：python cta_platform.py test_config.json
