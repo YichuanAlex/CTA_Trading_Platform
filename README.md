@@ -1,4 +1,4 @@
-# CTA Trading Platform | 商品交易顾问交易系统
+# CTA Trading Platform | 期权交易顾问交易系统
 
 <div align="center">
 
